@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.h1Todo{
+  font-size: 100px;
+}
+.divTodo{
+  background-color: antiquewhite;
+  display: inline-block;
+  vertical-align: middle;
+}
+.TodoForm {
+  border: 10px solid grey;
+  background-color: #0a0e44;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+}
+
+.Todoinput{
+  margin-top: 10px;
+  background-color: #98994c;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 70px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width:50%;
+}
+
+.TodoSubmit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  width: 40%;
+}
+.divAvg{
+  width: 800px;
+  margin: auto;
+  background-color: rgb(175, 131, 73);
+}
+.AvgSubmit{
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    width: 30%;
+}
+.divInner{ 
+  display: inline-block;
+  margin-top: 10pxl;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  height: 125px;
+  width: 70%;
+  font-size: larger;
+  color: aliceblue;
+  margin:auto;
+}
+.AddnoSt {
+  margin-top: 10pxl;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 30px;
+  height: 150px;
+  width: 70%;
+  color: aliceblue;
+  margin:auto;
+}
+.MiniCalculatorDiv{
+  border: 10px solid grey;
+  background-color: #0a0e44;
+  color: antiquewhite;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
