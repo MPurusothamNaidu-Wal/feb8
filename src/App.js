@@ -19,8 +19,8 @@ function App() {
       Two= {20}
       ></Addnos><br/>
       <MiniCalculator 
-      num1 = {20}
-      num2 = {10}
+      numOne = {20}
+      numTwo = {10}
       operation= "add"
       ></MiniCalculator>
     </div>
